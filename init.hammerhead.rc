@@ -174,8 +174,8 @@ on post-fs-data
     chown dhcp dhcp /data/misc/dhcp
 
     # communicate with mpdecision and thermald
-    mkdir /dev/socket/mpdecision 0770 system system
-    chmod 2770 /dev/socket/mpdecision
+    #mkdir /dev/socket/mpdecision 0770 system system
+    #chmod 2770 /dev/socket/mpdecision
 
     # save rtc time offsets
     mkdir /data/system/time/ 0700 system system
